@@ -10,21 +10,18 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class DemospringApplication {
 
-  
-
     public static void main(String[] args) {
+        System.out.println("hana runnit context");
         ConfigurableApplicationContext context = SpringApplication.run(DemospringApplication.class, args);
         Locator.setContext(context);
-       // TestLocator testLocator= new TestLocator();
-       // testLocator.sayHey();
+        // TestLocator testLocator= new TestLocator();
+        // testLocator.sayHey();
 //        if (context == null) {
 //            System.out.println("context rah nullllllllll");
 //        } else {
-            MonService monService = context.getBean(MonServiceImpl.class);
-            monService.afficher();
+        MonService monService = context.getBean(MonServiceImpl.class);
+        monService.afficher();
 //        }
     }
-
-   
 
 }
