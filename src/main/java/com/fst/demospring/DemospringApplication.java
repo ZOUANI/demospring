@@ -19,8 +19,8 @@ public class DemospringApplication {
 //        if (context == null) {
 //            System.out.println("context rah nullllllllll");
 //        } else {
-        MonService monService = context.getBean(MonServiceImpl.class);
-        monService.afficher();
+//        MonService monService = context.getBean(MonServiceImpl.class);
+//        monService.afficher();
 //        }
     }
 
