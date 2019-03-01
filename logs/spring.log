@@ -1,0 +1,14 @@
+2019-02-16 08:48:34.932  INFO 9924 --- [main] c.fst.demospring.DemospringApplication   : Starting DemospringApplication on DESKTOP-JH86H8A with PID 9924 (C:\Users\YOUNES\Documents\NetBeansProjects\demospring\target\classes started by YOUNES in C:\Users\YOUNES\Documents\NetBeansProjects\demospring)
+2019-02-16 08:48:34.948  INFO 9924 --- [main] c.fst.demospring.DemospringApplication   : The following profiles are active: dev
+2019-02-16 08:48:37.400  INFO 9924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-16 08:48:37.447  INFO 9924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-16 08:48:37.447  INFO 9924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-16 08:48:37.463  INFO 9924 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_40\bin;C:\Program Files\nodejs\;C:\Users\YOUNES\AppData\Local\Microsoft\WindowsApps;C:\Users\YOUNES\AppData\Local\Yarn\bin;;C:\Program Files\Docker Toolbox;C:\Users\YOUNES\AppData\Roaming\npm;.]
+2019-02-16 08:48:37.655  INFO 9924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-16 08:48:37.655  INFO 9924 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2598 ms
+2019-02-16 08:48:38.077  INFO 9924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-16 08:48:38.546  INFO 9924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-16 08:48:38.561  INFO 9924 --- [main] c.fst.demospring.DemospringApplication   : Started DemospringApplication in 4.307 seconds (JVM running for 4.997)
+2019-02-16 08:48:38.561  INFO 9924 --- [main] c.fst.demospring.service.MonServiceImpl  : INFO MESSSAGEEEEE
+2019-02-16 08:48:38.577 ERROR 9924 --- [main] c.fst.demospring.service.MonServiceImpl  : error message
+2019-02-16 08:48:38.577  WARN 9924 --- [main] c.fst.demospring.service.MonServiceImpl  : warn message
