@@ -11,6 +11,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class DemospringApplication {
 
     public static void main(String[] args) {
+    	System.out.println("totooo");
         System.out.println("hana runnit context");
         ConfigurableApplicationContext context = SpringApplication.run(DemospringApplication.class, args);
         Locator.setContext(context);
